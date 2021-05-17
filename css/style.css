@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width:1140px;
+    margin:0 auto;
+}
+header{
+    width:100%;
+    float:left;
+    padding:26px 0;
+    background: #f6f9f9;
+    position:fixed;
+    top:0;
+
+
+}
+.logo{
+    width:40%;
+    float:left;
+    text-align: center;
+    display: block;
+    
+}
+
+
+
+.menu{
+   width:60%;
+   float:left;
+   text-align: center;
+    display: block;
+    
+   
+   
+}
+nav ul{
+    list-style: none;
+
+}
+nav ul li{
+    display:inline-block;
+    margin:10px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    background:#15a4fa;
+    color:white;
+    padding:5px 20px;
+
+}
+.bannar{
+    width:100%;
+    float:left;
+    background-image: url(../img/bannar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannar-main{
+   width:60%;
+   margin:0 auto;
+   padding-top:150px;
+   text-align: center;
+}
+.bannar-main h2{
+    font-size: 110px;
+    color:white;
+
+}
+.bannar-main span{
+    width:80%;
+    display:block;
+    margin:10px auto;
+    border:2px solid #15a4fa;
+    margin-bottom:20px;
+    
+
+}
+.bannar-main p{
+    font-size: 14px;
+    color:white;
+    
+    
+}
+.bannar-btn{
+    background: transparent;
+   padding:10px 24px;
+   border:1px solid #15a4fa;
+   color:white;
+   margin-top:50px;
+   margin-bottom:130px;
+}
+.bannar-icon{
+    color:white;
+    font-size: 27px;
+    margin-bottom:25px;
+
+}
+.text{
+    width:100%;
+    float:left;
+    background-color: #f6f9f9;
+
+}
+.text-main{
+    width:100%;
+    float:left;
+    margin:1px auto;
+    display:block;
+    text-align:center;
+
+    
+
+}
+.text-main h3{
+    margin-top:50px;
+    margin-bottom:25px;
+    color:#2d3950;
+    font-size:30px;
+    text-align: center;
+    
+    
+
+}
+.text-main p{
+    margin-left:32px;
+    color: #999999;
+    font-size: 16px;
+    padding:3px;
+}
+.icon-var{
+    width:100%;
+    float:left;
+    
+
+}
+.icon-menu{
+    width:90%;
+    float:left;
+    margin-left:125px;
+    margin-top:50px;
+
+}
+.icon-one{
+  width:30%;
+  float:left;
+  display:block;
+  text-align:center;
+  
+}
+.icon-one h4{
+    color:#2d3950;
+     margin-bottom:10px;
+}
+.icon-one p{
+    color:#999999;
+    font-size:14px;
+    margin-bottom:50px;
+
+}
+.icon-two{
+    width:30%;
+    float:left;
+    display:block;
+    text-align:center;
+}
+.icon-two h4{
+    color:#2d3950;
+     margin-bottom:10px;
+
+}
+.icon-two p{
+    color:#999999;
+    font-size:14px;
+    margin-bottom:50px;
+    
+}
+.icon-three{
+    width:30%;
+    float:left;
+    display:block;
+  text-align:center;
+}
+.icon-three h4{
+     color:#2d3950;
+     margin-bottom:10px;
+
+}
+.icon-three p{
+    color:#999999;
+    font-size:14px;
+    margin-bottom:50px;
+}
+.fa.fa-mobile{
+    background-color: #48baff;
+    color:white;
+    width:60px;
+    height:60px;
+    line-height: 60px;
+    font-size:36px;
+    margin-bottom:20px;
+}
+.fa.fa-paper-plane-o{
+    background-color: #48baff;
+    color:white;
+    width:60px;
+    height:60px;
+    line-height: 60px;
+    font-size:36px;
+    margin-bottom:20px;
+
+
+}
+.fa.fa-bullhorn{
+    background-color: #48baff;
+    color:white;
+    width:60px;
+    height:60px;
+    line-height: 60px;
+    font-size:36px;
+    margin-bottom:20px;
+
+}
+.gallery{
+    width:100%;
+    float:left;
+    background-color: #f6f9f9;
+}
+.gallery-main{
+    width:90%;
+    float:left;
+    margin:0 auto;
+    text-align: center;
+    margin-left:80px;
+}
+.gallery-main h2{
+    color:#2d3950;
+    margin-top:50px;
+    font-size:25px;
+    margin-bottom:10px;
+}
+.gallery-main p{
+    color:#979797;
+    font-size:10px;
+    margin-bottom:30px;
+}
+.gallery-main img{
+    width:250px;
+    padding:13px;
+    
+}
+.gallery-one{
+    width:70%;
+    float:left;
+    
+
+}
+.webform{
+    width:100%;
+    float:left;
+    background-image: url(../img/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.webform-menu{
+   width:50%;
+   margin:10px auto;
+   display:block;
+   text-align:center;
+   margin-bottom:70px;
+}
+.webform-menu h1{
+    color:white;
+    font-size:30px;
+    margin-top:65px;
+
+}
+.webform-menu p{
+    color:#929394;
+    font-size: 12px;
+    margin-top:10px;
+    margin-bottom:35px;
+
+}
+.form-control{
+    width: 60%;
+    height:30px;
+    padding:5px 20px;
+    margin-bottom:15px;
+    border: 1px solid #929394;
+    border-radius: 3px;
+    font-size:12px;
+    font-weight: normal;
+    background:transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+.form-control1{
+    width: 60%;
+    height:30px;
+    padding:5px 20px;
+    padding-bottom:90px;
+    margin-bottom:15px;
+    border: 1px solid #929394;
+    border-radius: 3px;
+    color:white;
+    font-size:12px;
+    font-weight: normal;
+    background:transparent;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.check{
+    color:white;
+}
+
+.form-btn{
+    margin-left:150px;
+    text-align: right;
+    padding:7px 30px;
+    background: transparent;
+    border:1px solid #15a4fa;
+    color:white;
+}
+footer{
+    width:100%;
+    float:left;
+    background-color: #f6f9f9;
+
+}
+.footer-main{
+    width:100%;
+    float:left;
+    margin-top:30px;
+    margin-bottom:20px;
+    
+
+}
+.footer-one{
+    width:50%;
+    float:left;
+
+}
+.footer-one p{
+    text-align: center;
+    color:#999999;
+    font-size: 12px;
+    margin-right:80px;
+    padding:10px;
+}
+.footer-icon{
+    width:50%;
+    float:left;
+    
+    
+    
+   
+
+}
+.footer-icon ul{
+  list-style: none;
+  text-align: center;
+  margin-left:70px;
+  
+  
+
+}
+.footer-icon ul li{
+    display: inline-block;
+
+}
+.fa.fa-facebook{
+    padding:5px 10px;
+    background-color:#15a4fa ;
+    color:white;
+}
+.fa.fa-twitter{
+    padding:5px 10px;
+    background-color:#15a4fa ;
+    color:white;
+
+}
+.fa.fa-google-plus{
+    padding:5px 10px;
+    background-color:#15a4fa ;
+    color:white;
+
+}
+.fa.fa-linkedin{
+    padding:5px 10px;
+    background-color:#15a4fa ;
+    color:white;
+
+}
